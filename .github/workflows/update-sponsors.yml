@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Codecademy/run-on-yarn@v1
+      - uses: Codecademy/run-on-yarn@v2
         with:
           command: generate-sponsors
       - name: Create Pull Request
